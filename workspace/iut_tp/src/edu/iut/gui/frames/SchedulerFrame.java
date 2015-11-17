@@ -51,5 +51,4 @@ public class SchedulerFrame extends JFrame {
 		setupUI();
 	}
 	
-	
 }
