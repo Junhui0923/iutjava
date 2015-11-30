@@ -9,17 +9,15 @@ import edu.iut.app.ApplicationSession;
 
 public class WeekPanel extends EventPanel {
 
-	// ______ Exercice 4 ______
-	
 	public enum WeekDayNames {
 		EMPTYDAY("",""),
-		MONDAY(ApplicationSession.instance().getString("monday"), ApplicationSession.instance().getString("mon")),
-		TUESDAY(ApplicationSession.instance().getString("tuesday"), ApplicationSession.instance().getString("tue")),
-		WEDNESDAY(ApplicationSession.instance().getString("wednesday"), ApplicationSession.instance().getString("wed")),
-		THURSDAY(ApplicationSession.instance().getString("thursday"), ApplicationSession.instance().getString("thu")),
-		FRIDAY(ApplicationSession.instance().getString("friday"), ApplicationSession.instance().getString("fri")),
-		SATURDAY(ApplicationSession.instance().getString("saturday"), ApplicationSession.instance().getString("sat")),
-		SUNDAY(ApplicationSession.instance().getString("sunday"), ApplicationSession.instance().getString("sun"));
+		MONDAY(ApplicationSession.instance().getString("monday"),ApplicationSession.instance().getString("mon")),
+		TUESDAY(ApplicationSession.instance().getString("tuesday"),ApplicationSession.instance().getString("tue")),
+		WEDNESDAY(ApplicationSession.instance().getString("wednesday"),ApplicationSession.instance().getString("wed")),
+		THURSDAY(ApplicationSession.instance().getString("thursday"),ApplicationSession.instance().getString("thu")),
+		FRIDAY(ApplicationSession.instance().getString("friday"),ApplicationSession.instance().getString("fri")),
+		SATURDAY(ApplicationSession.instance().getString("saturday"),ApplicationSession.instance().getString("sat")),
+		SUNDAY(ApplicationSession.instance().getString("sunday"),ApplicationSession.instance().getString("sun"));
 		
 		private String name;
 		private String shortName;
